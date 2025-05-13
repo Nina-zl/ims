@@ -1,5 +1,6 @@
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif; 
+    /* font-family: "Oswald", sans-serif; */
     color: #202020;
     background-color: #ffffff;
 }
@@ -73,22 +74,11 @@ button {
         
     }
 }
-      /* Heder */
 
 
-.page-heder {
-   
-    border-bottom: 1px solid #E7E9FC;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-}
+ /* #region Heder */
 
-/* @media screen and (max-width: 767px) { */
-    .page-heder {
-        border-bottom: 1px solid #E7E9FC;
-        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-    }
-
-
+.page-heder {}
 
 .heder-container {
     display: flex;
@@ -96,17 +86,9 @@ button {
     align-items: center;
   }
 
-
-
-    /* #region Heder */
-
-
-
-
-
 .heder-logo {
     padding: 16px 0;
- display: block;
+    display: block;
 }
 
 @media screen and (min-width: 768px) {
@@ -118,53 +100,17 @@ button {
 
     @media screen and (min-width: 1158px) {
 .heder-logo {
-        
         margin-right: 76px;
      }
     }
 
-
-
-
-.heder-logo .logo-part {
-    color: #2e2f42;
-}
-
-
-
-      /* Navigation */
-
-.nav-list {
-    display: none;
-}
-
 @media screen and (min-width: 768px) {
-    
-
-
-.activ {
-    color: #ffcc11;;
-}
-
-
- .contacts {
-     font-style: normal;
-     margin-left: auto;
-     display: flex;
- }
-
-.contacts-list {
-    display: none;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1157px) {
 .contacts-list {
     display: flex;
-    /* align-items: center; */
-    padding: 0;
-    flex-direction: column;
-    gap: 12px;
-    font-size: 12px;
+    align-items: center;
+    gap: 40px;
+    flex-direction: row;
+    font-size: 16px;
   }
 }
 
@@ -175,6 +121,7 @@ button {
         gap: 40px;
         flex-direction: row;
         font-size: 16px;
+        
     }
 }
 
@@ -192,15 +139,16 @@ button {
  
 @media screen and (min-width: 1158px) {
     .contacts-list {
-            flex-direction: row;
-            align-items: center;
-            gap: 40px;
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
 }   
     .contacts-link {
     font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         padding: 24px 0;
+        text-decoration: none;
     }
     
 } 
@@ -210,27 +158,6 @@ button {
     color: #ffcc11;
 }
 
-
-
-
-
-.nav-btn-mobile {
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    line-height: 0;
-    fill: #2F2F37;
- }
-
- @media screen and (min-width: 768px) {
-.nav-btn-mobile {
-    display: none;
-}
- } 
-
- .nav-btn-icon {
-    display: block;
- }
  /* #endregion */
 
 /* #region Hero */
@@ -299,13 +226,12 @@ button {
 
 
 .main-page-title {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 36px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-   
     margin-bottom: 72px;
     margin-left: auto;
     margin-right: auto;
@@ -332,8 +258,8 @@ button {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: ##202020;
-    background-color: #ffcc11;;
+    color: #202020;
+    background-color: #ffcc11;
     border-radius: 4px;
     padding: 16px 32px;
     display: block;
@@ -501,7 +427,8 @@ button {
 .footer-cont {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;   
+    justify-content: center;
+   
 } 
 
 @media screen and (min-width: 768px) {
