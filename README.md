@@ -1,2 +1,0 @@
-# ims
-Services page ims
