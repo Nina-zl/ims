@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IMS Landing page</title>
 
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet"> -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 
  <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,11 +18,7 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
     integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
     crossorigin="anonymous" 
-    referrerpolicy="no-referrer" />
-
-
-    
-    
+    referrerpolicy="no-referrer" />    
 
     <link rel="stylesheet" href="./css/styles.css">
 </head>
@@ -44,31 +40,44 @@
         </div>   
     <main>
             
-
-
         <!-- ============ Hero =========== -->
-         <section class="main-page">
+         <section class="main-page">            
+                <div class="slider-container">
+                    <div class="slides slide1">
+                        <img src="/images/logo-footer-IMS.png">
+                    <h1 class="heading">Замовляй ІТ майстра</h1>
+                    </div>
+                    <div class="slides slide2">
+                        <img src="/images/logo-footer-IMS.png">
+                    <h1 class="heading">Замовляй ІТ майстра</h1>
+                    </div>
+                    <div class="slides slide1">
+                        <img src="/images/logo-footer-IMS.png">
+                    <h1 class="heading">Замовляй ІТ майстра</h1>
+                </div>               
+        </section> 
+
+        <!-- ============ Hero photo block =========== -->
+         <!-- <section class="main-page">
             <div class="container">
-                <h1 class="main-page-title">
+                <h1 class="heading">
                     Замовляй ІТ майстра
                 </h1>
                 <button class="main-page-btn"
                 type="button">Викликати майстра</button>
             </div>
-
-        </section> 
+        </section>  -->
 
         <!-- ============ Our Services =========== -->
           <section class="our-services">
           <div class="container">
-            <h2 class="our-services-title">Наші послуги</h2>
+            <h2 class="heading2">Наші послуги</h2>
             <ul class="services-case">
                 <li class="services-item"> 
                     <div class="services-image">
                         <img src="./images/servises/settings.jpg" alt="Виклик майстра"
                         srcset="./images/servises/settings.jpg"
-                        width="360" height="300" />
-                    
+                        width="360" height="300"/>                    
                        <p class="overlay-text">
                         Департамент сервісного обслуговування забезпечує безперебійну роботу телекомунікаційних об'єктів і мереж, систем відеонагляду та сигналізації. 
                        </p>
@@ -92,6 +101,7 @@
                         <p class="services-text">від 400 грн</p>
                     </div>
                 </li>
+
                 <li class="services-item">
                     <div class="services-image">
                         <img src="./images/servises/settings.jpg" alt="Монтажні роботи"
@@ -104,8 +114,7 @@
                         <h3 class="services-name-case">Монтажні роботи</h3>
                         <p class="services-text">від 350 грн</p>
                     </div>
-                </li>
-                               
+                </li>                               
             </ul>
            </div>
         </section>
@@ -119,28 +128,16 @@
       <div class="container footer-cont">
             <div class="footer-text">
                 <img src="images/logo-footer-IMS.png" alt="logo" class="heder-logo" width="100" height="110">
-                <p class="page-footer-text">Швидке реагування на звернення замовників і надійний сервіс у режимі 24/7
+                <p class="footer-text">Швидке реагування на звернення замовників і надійний сервіс у режимі 24/7
                 </p>
             </div>
-            <div class="subscribe-cont">
-                <p class="subscribe-text">Підписатися</p>
-                        <form class="input-btn">
-                            <label class="footer-input">
-                              <input type="email" name="subscribe-email" placeholder="E-mail" class="subscribe-email">
-                            </label>
-            
-                            <button type="submit" class="subscribe-btn">Підписатися
-                                <svg class="icons-footer" width="24" height="24">
-                                    <use href="./images/icons.svg#icon-twitter"></use>
-                                </svg>
-                            </button>
-                        </form>            
+            <div class="request-cont">
+                <p class="request-cont-text">Політика конфіденційності</p>
+                <p class="request-cont-text">Публічний договір</p>                           
             </div>
         </div>
-    </footer>
-
-    
-</body>
+    </footer> 
+  </body>
 </html>
 
 
