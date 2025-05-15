@@ -66,16 +66,16 @@ a {
 
 
 .slide1 {
-    background-color: #202020;
+    background-color: #FFCC11;
 }
 .slide2 {
-    background-color: #4a4a4a;
+    background-color: #202020;
 }
 
 
 
 .internet-slide {
-    background-color: #ffc800;
+    background-color: #FFCC11;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
