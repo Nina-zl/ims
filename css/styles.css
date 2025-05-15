@@ -92,11 +92,11 @@ a {
   }
   
   .internet-problem {
-    font-size: 42px;
+    font-size: 36px;
     font-weight: 400;
     text-transform: uppercase;
     color: #202020;
-    margin-bottom: 110px;
+    margin-bottom: 40px;
   }
   
   .internet-call {
@@ -105,12 +105,12 @@ a {
     text-transform: uppercase;
     line-height: 1.1;
     color: #202020;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
   }
   
   .internet-call span {
     display: block;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 700;
     margin-top: 5px;
   }
@@ -127,6 +127,7 @@ a {
   @media screen and (min-width: 768px) {
     .internet-problem {
       font-size: 44px;
+      margin-bottom: 80px;
     }
   
     .internet-call {
@@ -142,6 +143,7 @@ a {
   @media screen and (min-width: 1158px) {
     .internet-problem {
       font-size: 50px;
+      margin-bottom: 110px;
     }
   
     .internet-call {
