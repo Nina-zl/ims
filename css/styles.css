@@ -81,7 +81,6 @@ a {
     justify-content: flex-start;
     align-items: center;
     height: 100vh;
-    padding-top: 130px;
     text-align: center;
   }
   
@@ -106,8 +105,7 @@ a {
     text-transform: uppercase;
     line-height: 1.1;
     color: #202020;
-    margin-bottom: 60px;
-  }
+    }
   
   .internet-call span {
     display: block;
