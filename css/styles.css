@@ -58,7 +58,6 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
     color: #fff;
    scroll-snap-align: start;
 }
@@ -96,7 +95,7 @@ a {
     font-weight: 400;
     text-transform: uppercase;
     color: #202020;
-    margin-bottom: 60px;
+    margin-bottom: 60px; 
   }
   
   .internet-call {
@@ -126,7 +125,7 @@ a {
   /* Tablet */
   @media screen and (min-width: 768px) {
     .internet-problem {
-    padding-top: 130px;
+    padding-top: 60px;
     font-size: 4rem;
     }
   
