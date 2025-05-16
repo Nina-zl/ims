@@ -15,7 +15,7 @@ window.onload = () => {
             ti.textContent = t[0];
             if (i++ == p.length - 1) {
                 ti.textContent = t[1];
-                im.src = "/images/man-min-2.png";
+                im.src = "../images/man-min-2.png";
                 clearInterval(x)
             }
         }
