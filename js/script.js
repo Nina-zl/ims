@@ -15,7 +15,7 @@ window.onload = () => {
             ti.textContent = t[0];
             if (i++ == p.length - 1) {
                 ti.textContent = t[1];
-                im.src = "./images/vanya-sm.png";
+                im.src = "./images/vanya-sm-without colors.png";
                 clearInterval(x)
             }
         }
