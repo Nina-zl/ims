@@ -71,11 +71,11 @@ a {
 }
 .slide2 {
     /* background-color: #202020; */
-    background-image: url('../images/services/back-col-2.png'); 
+    background-image: url('../images/services/background-servises.png'); 
 }
 
 .slide3 {
-background-image: url('../images/order/back-col-3.png'); 
+background-image: url('../images/order/background-order.png'); 
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -125,7 +125,6 @@ background-repeat: no-repeat;
   }
   
   .internet-image {
-    /* background-image: url('/images/hero/vanya/vanya-ang-1x.png');  */
     max-height: 50vh;
     width: auto;
     max-width: 100%;
@@ -278,9 +277,6 @@ background-repeat: no-repeat;
     gap: 20px;
   }
 
-   /* .master-img {
-    height: 380px;
-  } */
 }
 
 
