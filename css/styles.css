@@ -71,11 +71,11 @@ a {
 }
 .slide2 {
     /* background-color: #202020; */
-    background-image: url('../images/bc/bc-2.png'); 
+    background-image: url('../images/services/back-col-2.png'); 
 }
 
 .slide3 {
-background-image: url('../images/bc/bc-3.png'); 
+background-image: url('../images/order/back-col-3.png'); 
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -99,7 +99,7 @@ background-repeat: no-repeat;
   }
   
   .internet-problem {
-    font-size: 30px;
+    /* font-size: 30px; */
     font-size: 2rem;
     font-weight: 400;
     text-transform: uppercase;
@@ -121,9 +121,11 @@ background-repeat: no-repeat;
     font-size: 2rem;
     font-weight: 700;
     margin-top: 5px;
+    
   }
   
   .internet-image {
+    /* background-image: url('/images/hero/vanya/vanya-ang-1x.png');  */
     max-height: 50vh;
     width: auto;
     max-width: 100%;
@@ -136,23 +138,33 @@ background-repeat: no-repeat;
   @media screen and (min-width: 768px) {
     .internet-problem {    
      padding-top: 60px;
+     font-size: 4rem;
      
     }    
+
+    .internet-call {
+      font-size: 4rem;
+      }
+  }
+
+  .internet-call span {
+        font-size: 4rem;
   }
   
   /* Desktop */
   @media screen and (min-width: 1158px) {
     .internet-problem {
     padding-top: 130px;
-    font-size: 200%;
-    }
+    /* font-size: 200%; */
+      }
   
     .internet-call {
-    font-size: 200%;
+    /* font-size: 200%; */
+    font-size: 4rem;
     }
   
     .internet-call span {
-    font-size: 200%;
+    /* font-size: 200%; */
     }
   }
 
