@@ -10,12 +10,14 @@ window.onload = () => {
         // im.style.transition = 'opacity ' + d / 1000 + 's';
         // (im.complete ? Promise.resolve() : new Promise(r => im.onload = r)).then(() => requestAnimationFrame(() => im.style.opacity = 1));
         // requestAnimationFrame(() => im.style.opacity = 1);
+        im.src = window.innerWidth <= 768  ? '../images/hero/vanya-ang.png'  : '../images/hero/vanya-ang-2x.png';
         let x = setInterval(() => {
             ph.textContent = p[i];
             ti.textContent = t[0];
             if (i++ == p.length - 1) {
                 ti.textContent = t[1];
-                im.src = "/images/hero/vanya-sm.png";
+                im.src = window.innerWidth <= 768  ? '../images/hero/vanya-sm.png'  : '../images/hero/vanya-sm-2x.png';
+                // im.src = "./images/hero/vanya-sm.png";
                 clearInterval(x)
             }
         }
