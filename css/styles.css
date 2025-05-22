@@ -70,15 +70,16 @@ a {
     background-color: #FFCC11;
 }
 .slide2 {
-    background-color: #202020;
+    /* background-color: #202020; */
+    background-image: url('../images/bc/bc-2.png'); 
 }
 
 .slide3 {
-/* background-image: url('../images/order/tekstura-beloi-bumagi.jpg');  */
+background-image: url('../images/bc/bc-3.png'); 
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
-background-color: #FFCC11 ;
+
 }
 
 .internet-slide {
@@ -123,7 +124,7 @@ background-color: #FFCC11 ;
   }
   
   .internet-image {
-    height: 50vh;
+    max-height: 50vh;
     width: auto;
     max-width: 100%;
     object-fit: contain;
@@ -234,7 +235,7 @@ background-color: #FFCC11 ;
     }
   
   .master-img {
-    height: 276px;
+    
     width: auto;
     max-width: 100%;
     object-fit: contain;
@@ -265,9 +266,9 @@ background-color: #FFCC11 ;
     gap: 20px;
   }
 
-   .master-img {
+   /* .master-img {
     height: 380px;
-  }
+  } */
 }
 
 
