@@ -61,7 +61,7 @@ a {
     align-items: center;
     justify-content: center;
     color: #fff;
-   scroll-snap-align: start;
+    scroll-snap-align: start;
 }
 
 
@@ -73,16 +73,22 @@ a {
     background-color: #202020;
 }
 
-
+.slide3 {
+/* background-image: url('../images/order/tekstura-beloi-bumagi.jpg');  */
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-color: #FFCC11 ;
+}
 
 .internet-slide {
-    background-color: #FFCC11;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     height: 100vh;
     text-align: center;
+
   }
   
   .internet-content {
@@ -97,6 +103,7 @@ a {
     font-weight: 400;
     text-transform: uppercase;
     color: #202020;
+    padding-top: 40px;
     margin-bottom: 30px; 
   }
   
@@ -128,16 +135,8 @@ a {
   @media screen and (min-width: 768px) {
     .internet-problem {    
      padding-top: 60px;
-     /* font-size: 4rem;  */
-    }
-/*   
-    .internet-call {
-    font-size: 4rem;
-    }
-  
-    .internet-call span {
-      font-size: 64px;
-    } */
+     
+    }    
   }
   
   /* Desktop */
@@ -155,3 +154,282 @@ a {
     font-size: 200%;
     }
   }
+
+
+
+ /* services */
+
+  .services-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .logo-block {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 77px;
+    height: auto;
+  }
+  
+  .subtitle {
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #fc1; 
+    text-transform: uppercase;
+    margin: 0;
+  }
+  /* services list */
+  .services-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .service-item {
+    position: relative;
+    width: 345px;   
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .service-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .service-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;
+    color: #202020;
+    position: absolute;
+    z-index: 1;
+    
+  }
+  
+  .service-text span {
+    font-size: 26px;
+    }
+  
+  .master-img {
+    height: 276px;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    margin-bottom: 0;
+    margin-top: auto;
+  }
+  
+  /* Tablet */
+@media screen and (min-width: 768px) {
+   
+  .logo-block {
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+
+  .logo {
+    width: 90px;
+  }
+
+  .logo-text {
+    font-size: 14px;
+  }
+
+  .services-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+   .master-img {
+    height: 380px;
+  }
+}
+
+
+/* Desktop */
+@media screen and (min-width: 1158px) {
+  
+  .logo-block {
+    gap: 12px;
+    margin-bottom: 40px;
+  }
+
+  .logo {
+    width: 140px;
+  }
+
+  .logo-text {
+    font-size: 16px;
+  }
+
+   .master-img {
+    height: 490px;
+    
+  }
+}
+
+
+/* order */
+
+.order-section {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+.order-form {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 350px;
+  margin: 20px 15px 30px;
+}
+
+.oorder-block {
+  gap: 16px;
+}
+.order-title {
+font-weight: 400;
+font-size: 23px;
+line-height: 1.3;
+text-transform: uppercase;
+text-align: center;
+color: #202020;
+margin-bottom: 20px;
+}
+
+
+.form-input {
+  padding: 17px 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #202020;
+  width: 320px;
+  margin-bottom: 8px;
+}
+
+.form-btn {
+  padding: 17px 12px;
+  width: 320px;
+  height: 56px;
+  font-size: 16px;
+  background-color: #202020;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+
+.contacts-text-block {
+  position: absolute;
+  font-family: "Unbounded", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  color: #202020;
+  bottom: 40px;
+  left: 20px;
+  right: 20px;
+  text-align: left;  
+  margin: 0 auto;
+}
+
+.contacts-web {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  text-align: right;
+
+}
+
+.order-image {
+  height: 50vh;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  margin-bottom: 0;
+  margin-top: auto;
+}
+
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+
+  .order-form {
+    margin: 45px;
+    max-width: 708px;
+  }
+
+  .order-title {
+    font-size: 30px;
+    margin-bottom: 32px;
+  }
+
+  .order-contacts {
+    max-width: 708px;
+    font-size: 16px;
+    flex-wrap: nowrap;
+  }
+  .contacts-text-block {
+    bottom: 40px;
+    max-width: 708px;
+  }
+  }
+  
+
+
+/* Desktop */
+@media screen and (min-width: 1158px) {
+ 
+  .order-form {
+    margin: 45px;
+    max-width: 930px;
+  }
+
+  .order-title {
+    font-size: 36px;
+    
+  }
+ 
+  .order-contacts {
+    max-width: 930px;
+    font-size: 18px;
+  }
+
+  .contacts__text-block {
+    max-width: 930px;
+  }
+}

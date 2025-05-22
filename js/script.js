@@ -23,3 +23,19 @@ window.onload = () => {
     }
     )(['ПРОБЛЕМИ З ІНТЕРНЕТОМ', 'КІТ ПОГРИЗ КАБЕЛЬ', 'НАЛАШТУВАТИ РОУТЕР', 'КУПИВ НОВИЙ СМАРТ', 'ПРОБЛЕМИ З ІНТЕРНЕТОМ'], ['ІНТЕРНЕТЧІКА', 'МАЙСТРА'], 6000);
 };
+
+
+
+document.querySelector('form').addEventListener('submit', e => {
+    e.preventDefault();
+  
+    const input = e.target.querySelector('input');
+    const phone = input.value.trim();
+  
+    if (phone) {
+      alert(`Номер надіслано: ${phone}`);
+      input.value = ''; // очищення поля
+    } else {
+      alert('Будь ласка, введіть номер телефону');
+    }
+  });
