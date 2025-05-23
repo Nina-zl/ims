@@ -71,7 +71,7 @@ a {
 }
 .slide2 {
     /* background-color: #202020; */
-    background-image: url('../images/services/background-servises.png'); 
+    background-image: url('../images/services/background-serv.png'); 
 }
 
 .slide3 {
@@ -137,36 +137,20 @@ background-repeat: no-repeat;
   @media screen and (min-width: 768px) {
     .internet-problem {    
      padding-top: 60px;
-     font-size: 4rem;
+     font-size: 3rem;
      
     }    
 
     .internet-call {
       font-size: 4rem;
       }
-  }
+  
 
   .internet-call span {
         font-size: 4rem;
   }
-  
-  /* Desktop */
-  @media screen and (min-width: 1158px) {
-    .internet-problem {
-    padding-top: 130px;
-    /* font-size: 200%; */
-      }
-  
-    .internet-call {
-    /* font-size: 200%; */
-    font-size: 4rem;
-    }
-  
-    .internet-call span {
-    /* font-size: 200%; */
-    }
-  }
-
+}
+ 
 
 
  /* services */
